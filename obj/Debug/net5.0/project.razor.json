@@ -15639,6 +15639,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\CMQ0108\\Index.cshtml",
+      "TargetPath": "Views\\CMQ0108\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\CMQ0108\\Details.cshtml",
+      "TargetPath": "Views\\CMQ0108\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\CMQ0108\\Edit.cshtml",
+      "TargetPath": "Views\\CMQ0108\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15674,8 +15689,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\CMQ0108\\Create.cshtml",
+      "TargetPath": "Views\\CMQ0108\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\University\\Details.cshtml",
       "TargetPath": "Views\\University\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\CMQ0108\\Delete.cshtml",
+      "TargetPath": "Views\\CMQ0108\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

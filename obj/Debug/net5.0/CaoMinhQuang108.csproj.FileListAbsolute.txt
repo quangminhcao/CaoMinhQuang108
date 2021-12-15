@@ -165,3 +165,8 @@ E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\CaoMinhQuang108.dll
 E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\ref\CaoMinhQuang108.dll
 E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\CaoMinhQuang108.pdb
 E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\CaoMinhQuang108.genruntimeconfig.cache
+E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\University\Create.cshtml.g.cs
+E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\University\Delete.cshtml.g.cs
+E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\University\Details.cshtml.g.cs
+E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\University\Edit.cshtml.g.cs
+E:\MaNguonMo\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\University\Index.cshtml.g.cs
