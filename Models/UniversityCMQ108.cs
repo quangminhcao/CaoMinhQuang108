@@ -5,8 +5,8 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace CaoMinhQuang108.Models
 {
-    [Table("University")]
-    public class University
+    [Table("UniversityCMQ108")]
+    public class UniversityCMQ108
     {
         [Key]
         public int UniversityId { get; set; }

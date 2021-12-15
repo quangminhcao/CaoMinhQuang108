@@ -21,7 +21,7 @@ namespace CaoMinhQuang108.Controllers
         // GET: University
         public async Task<IActionResult> Index()
         {
-            return View(await _context.University.ToListAsync());
+            return View(await _context.UniversityCMQ108S.ToListAsync());
         }
 
         // GET: University/Details/5
@@ -32,7 +32,7 @@ namespace CaoMinhQuang108.Controllers
                 return NotFound();
             }
 
-            var university = await _context.University
+            var university = await _context.UniversityCMQ108S
                 .FirstOrDefaultAsync(m => m.UniversityId == id);
             if (university == null)
             {
@@ -53,7 +53,7 @@ namespace CaoMinhQuang108.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UniversityId,UniversityName")] University university)
+        public async Task<IActionResult> Create([Bind("UniversityId,UniversityName")] UniversityCMQ108 university)
         {
             if (ModelState.IsValid)
             {
@@ -72,7 +72,7 @@ namespace CaoMinhQuang108.Controllers
                 return NotFound();
             }
 
-            var university = await _context.University.FindAsync(id);
+            var university = await _context.UniversityCMQ108S.FindAsync(id);
             if (university == null)
             {
                 return NotFound();
@@ -85,7 +85,7 @@ namespace CaoMinhQuang108.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("UniversityId,UniversityName")] University university)
+        public async Task<IActionResult> Edit(int id, [Bind("UniversityId,UniversityName")] UniversityCMQ108 university)
         {
             if (id != university.UniversityId)
             {
@@ -123,7 +123,7 @@ namespace CaoMinhQuang108.Controllers
                 return NotFound();
             }
 
-            var university = await _context.University
+            var university = await _context.UniversityCMQ108S
                 .FirstOrDefaultAsync(m => m.UniversityId == id);
             if (university == null)
             {
@@ -138,15 +138,15 @@ namespace CaoMinhQuang108.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var university = await _context.University.FindAsync(id);
-            _context.University.Remove(university);
+            var university = await _context.UniversityCMQ108S.FindAsync(id);
+            _context.UniversityCMQ108S.Remove(university);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool UniversityExists(int id)
         {
-            return _context.University.Any(e => e.UniversityId == id);
+            return _context.UniversityCMQ108S.Any(e => e.UniversityId == id);
         }
     }
 }

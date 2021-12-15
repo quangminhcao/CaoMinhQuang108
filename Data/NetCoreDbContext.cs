@@ -12,7 +12,7 @@ using CaoMinhQuang108.Models;
         {
         }
 
-        public DbSet<CaoMinhQuang108.Models.University> University { get; set; }
+        public DbSet<CaoMinhQuang108.Models.UniversityCMQ108> UniversityCMQ108S { get; set; }
 
         public DbSet<CaoMinhQuang108.Models.CMQ0108> CMQ0108 { get; set; }
 
