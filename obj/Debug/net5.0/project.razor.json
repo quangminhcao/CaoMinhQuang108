@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\StringProcessCMQ108\\Create.cshtml",
+      "TargetPath": "Views\\StringProcessCMQ108\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\University\\Index.cshtml",
       "TargetPath": "Views\\University\\Index.cshtml",
       "FileKind": "mvc"
@@ -15674,6 +15679,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\StringProcessCMQ108\\Index.cshtml",
+      "TargetPath": "Views\\StringProcessCMQ108\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15681,6 +15691,11 @@
     {
       "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\University\\Edit.cshtml",
       "TargetPath": "Views\\University\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\StringProcessCMQ108\\Edit.cshtml",
+      "TargetPath": "Views\\StringProcessCMQ108\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15696,6 +15711,16 @@
     {
       "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\University\\Details.cshtml",
       "TargetPath": "Views\\University\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\StringProcessCMQ108\\Delete.cshtml",
+      "TargetPath": "Views\\StringProcessCMQ108\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MaNguonMo\\CaoMinhQuang108\\Views\\StringProcessCMQ108\\Details.cshtml",
+      "TargetPath": "Views\\StringProcessCMQ108\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
