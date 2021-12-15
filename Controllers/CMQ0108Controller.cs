@@ -33,7 +33,7 @@ namespace CaoMinhQuang108.Controllers
             }
 
             var cMQ0108 = await _context.CMQ0108
-                .FirstOrDefaultAsync(m => m.NVNId == id);
+                .FirstOrDefaultAsync(m => m.CMQId == id);
             if (cMQ0108 == null)
             {
                 return NotFound();
@@ -53,7 +53,7 @@ namespace CaoMinhQuang108.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("NVNId,NVNName,NVNGender")] CMQ0108 cMQ0108)
+        public async Task<IActionResult> Create([Bind("CMQId,CMQName,CMQGender")] CMQ0108 cMQ0108)
         {
             if (ModelState.IsValid)
             {
@@ -85,9 +85,9 @@ namespace CaoMinhQuang108.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("NVNId,NVNName,NVNGender")] CMQ0108 cMQ0108)
+        public async Task<IActionResult> Edit(int id, [Bind("CMQId,CMQName,CMQGender")] CMQ0108 cMQ0108)
         {
-            if (id != cMQ0108.NVNId)
+            if (id != cMQ0108.CMQId)
             {
                 return NotFound();
             }
@@ -101,7 +101,7 @@ namespace CaoMinhQuang108.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CMQ0108Exists(cMQ0108.NVNId))
+                    if (!CMQ0108Exists(cMQ0108.CMQId))
                     {
                         return NotFound();
                     }
@@ -124,7 +124,7 @@ namespace CaoMinhQuang108.Controllers
             }
 
             var cMQ0108 = await _context.CMQ0108
-                .FirstOrDefaultAsync(m => m.NVNId == id);
+                .FirstOrDefaultAsync(m => m.CMQId == id);
             if (cMQ0108 == null)
             {
                 return NotFound();
@@ -146,7 +146,7 @@ namespace CaoMinhQuang108.Controllers
 
         private bool CMQ0108Exists(int id)
         {
-            return _context.CMQ0108.Any(e => e.NVNId == id);
+            return _context.CMQ0108.Any(e => e.CMQId == id);
         }
     }
 }

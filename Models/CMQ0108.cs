@@ -9,12 +9,12 @@ namespace CaoMinhQuang108.Models
     public class CMQ0108
     {
         [Key]
-        [Display(Name = "Mã NVN")]
-        public int NVNId { get; set; }
-        [Display(Name = "Tên NVN")]
-        public string NVNName { get; set; }
-        [Display(Name = "Giới Tính NVN")]
-        public string NVNGender { get; set; }
+        [Display(Name = "Mã CMQ")]
+        public int CMQId { get; set; }
+        [Display(Name = "Tên CMQ")]
+        public string CMQName { get; set; }
+        [Display(Name = "Giới Tính CMQ")]
+        public string CMQGender { get; set; }
 
     }
 }
